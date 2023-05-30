@@ -1,0 +1,31 @@
+#global-connected {
+  background-image: url(/assets/images/book-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  .global-connected{
+    background-color: rgba(0, 0, 0, 0.479);
+    h4,h6,p{
+        color: white;
+    }
+    h4{
+        font-size: 39px;
+    }
+    p{
+        color: gray;
+    }
+    p{
+        a{
+            color: white;
+            padding: 10px;
+            background-color: $main-color;
+            border: 1px solid transparent;
+            &:hover{
+                background-color: transparent;
+              border-color:  $main-color;
+            }
+        }
+    }
+  }
+}

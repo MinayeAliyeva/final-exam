@@ -1,0 +1,36 @@
+#latest-news {
+  .latest-news {
+    .text-and-img{
+        margin-top: -150px;
+    }
+    .card {
+      border: none;
+      .text {
+        p,span{
+            color: gray;
+        }
+        a {
+          padding: 4px;
+          color: white;
+          background-color: $main-color;
+          display: inline-block;
+          margin: 10px 0;
+        }
+      }
+      .img {
+        img {
+          width: 100%;
+        }
+      }
+    }
+    .top-side {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      p {
+        color: gray;
+      }
+    }
+  }
+}

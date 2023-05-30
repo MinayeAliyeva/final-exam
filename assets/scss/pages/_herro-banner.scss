@@ -1,0 +1,51 @@
+#herro-banner {
+  background-color: $main-color;
+  .herro-banner {
+    .text-side {
+      @media only screen and (max-width: 992px) {
+        margin-top: 150px;
+      }
+
+      h6 {
+        color: white;
+
+        font-weight: 300;
+        font-size: 12px;
+      }
+      h3 {
+        color: white;
+        font-size: 43px;
+      }
+      p {
+        a {
+          color: black;
+          padding: 6px 10px;
+          border: 1px solid white;
+          font-size: 12px;
+          font-weight: 400;
+          background-color: white;
+          margin-top: 18px;
+          &:hover {
+            background-color: transparent;
+            color: white;
+          }
+        }
+      }
+    }
+
+    img {
+      width: 100%;
+      //   height: 100%;
+      object-fit: cover;
+      @media only screen and (max-width: 992px) {
+        width: 450px;
+      }
+      @media only screen and (max-width: 767px) {
+        width: 350px;
+      }
+      @media only screen and (max-width: 576px) {
+        width: 250px;
+      }
+    }
+  }
+}

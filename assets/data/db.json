@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "name": "ulfat 1",
+      "id": 2,
+      "price": "GWP201",
+      "description": "61",
+      "img": "./assets/images/s4.jpg"
+    },
+    {
+      "name": "ulfa",
+      "id": 4,
+      "price": "GWP201",
+      "description": "65",
+      "img": "./assets/images/s4.jpg"
+    },
+    {
+      "name": "Provident animi qu",
+      "price": "66",
+      "description": "50",
+      "img": "./assets/images/s3.jpg",
+      "id": 6
+    },
+    {
+      "name": "ulfat last",
+      "id": 5,
+      "price": "GWP201",
+      "description": "85",
+      "img": "./assets/images/s4.jpg"
+    }
+  ],
+  "favorites": [
+    {
+      "name": "elyar",
+      "id": 2,
+      "price": "GWP201",
+      "description": "65",
+      "img": "./assets/images/s4.jpg"
+    },
+    {
+      "name": "Provident animi qu",
+      "price": "Hic tempora non eos",
+      "description": "50",
+      "img": "./assets/images/s3.jpg",
+      "id": 3
+    }
+  ]
+}
